@@ -1,11 +1,17 @@
 # SMHI-API
 
-This is a library written in Scala 3 to be used for communicating with the [SMHI Open Data API](https://opendata.smhi.se/apidocs/).
+This is a library written in Scala 3 to be used for communicating with the [SMHI Open Data API](https://opendata.smhi.se/apidocs/). It uses [uPickle](https://github.com/com-lihaoyi/upickle) for JSON serialization and [requests-scala](https://github.com/com-lihaoyi/requests-scala) for HTTP communication with the API.
+
+This library was written by me to improve my `Scala` knowledge and learn how to publish a package. As a result, the library will probably never be production-ready. My goal is to implement at least two API endpoints.
+
+It is recommended to use this library **together** with the [Official documentation from SMHI](https://opendata.smhi.se/apidocs/).
+
+If you have any improvement ideas or other feedback, please leave an issue.
 
 ## Currently supported API Endpoints
 
 - ⛔ Meteorological Observations
-- ⛔ Meteorological Forecasts (Work in progress)
+- ⛔ Meteorological Forecasts **(Work in progress)**
 - ⛔ Meteorological Analysis MESAN
 - ⛔ Meteorological Analysis STRÅNG
 - ⛔ Hydrological Observations
